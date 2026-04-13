@@ -492,7 +492,7 @@ if (! function_exists('getInvoiceCurrencyIcon')) {
 
         $invoiceCurrencyCode = Currency::whereId($currencyId)->first();
 
-        return $invoiceCurrencyCode->icon ?? '₹';
+        return $invoiceCurrencyCode->icon ?? 'SAR';
     }
 }
 
@@ -598,7 +598,7 @@ if (! function_exists('getInvoiceCurrencyAmount')) {
         }
 
         $formattedAmount = $formatting ? numberFormat($amount) : formatTotalAmount($amount);
-        $currencySymbol = isset($currencySymbols) && !empty($currencySymbols[$currencyId]) ? $currencySymbols[$currencyId] : '₹';
+        $currencySymbol = isset($currencySymbols) && !empty($currencySymbols[$currencyId]) ? $currencySymbols[$currencyId] : getInvoiceCurrencyIcon($currencyId);
         if ($currencyPosition) {
             return $formattedAmount.' '. $currencySymbol;
         }

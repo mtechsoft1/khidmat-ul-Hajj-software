@@ -94,5 +94,40 @@
         <strong>Standard Timings for all Hotels in Saudi Arabia:</strong><br>
         Check-in Time: 16:00 &amp; Check-out Time: 13:00
     </p>
+    
+    <p style="margin-top: 18px;">
+        We assure you of our best services and attentions at all times and look forward to a lasting relationship with you.<br>
+        Thanks &amp; Regards<br>
+        <strong>TEAM KHIDMAT UL HUJJAJ</strong>
+    </p>
+    
+    <p style="margin-top: 18px;">
+        <u style="font-weight: 700;">SPECIAL REMARKS:</u><br>
+        &bull; We hope that we have covered all your request waiting for your reply by the option date otherwise the reservation will be released automatically without prior notice.<br>
+        &bull; No Bank Transfers will be Accepted Except From the Company's Bank Account<br>
+        &bull; Above rates are net and non-commissionable quoted in Saudi Riyals<br>
+        &bull; Check in after 16:00 hour and check out at 12:00 hour<br>
+        &bull; Above Rates are including Municipality Fees 5% and 15%VAT Taxes.<br>
+        &bull; Above Rates are excluding 10% Maqam Fees.<br>
+        &bull; Weekdays (WD) are Saturday until Wednesday and Weekend (WE) are Thursday and Friday.
+    </p>
+    
+    <p style="margin-top: 18px;">
+        <strong>Cancelation &amp; Amendment Policy:</strong><br>
+        &bull; Individual Bookings (less than 5 Rooms):<br>
+        &bull; <strong>No Cancellation Non Refundable</strong><br>
+        &bull; Contract with special terms &amp; Conditions.
+    </p>
+    
+    <p style="margin-top: 18px;">
+        <strong>Payment Policy:</strong><br>
+        &bull; Individual booking has to be paid in full upon option date mentioned in confirmation letter.<br>
+        &bull; <strong>Groups booking payment will be as follows:</strong><br>
+        &bull; 20% of total amount upon confirmation<br>
+        &bull; 50% of total amount has to be paid 21 days before each group arrival<br>
+        &bull; 80% of total amount has to be paid 14 days before each group arrival<br>
+        &bull; 100% of total amount has to be paid 07 days before each group arrival<br>
+        In case of not meet above mentioned installment dates booking will be automatically released and will be subject to cancelation policy fees
+    </p>
 </body>
 </html>
