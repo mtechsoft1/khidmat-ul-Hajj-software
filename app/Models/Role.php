@@ -52,9 +52,13 @@ class Role extends roleModal
 
     public const CLIENT = 2;
 
+    public const VENDOR = 3;
+
     const ROLE_ADMIN = 'admin';
 
     const ROLE_CLIENT = 'client';
+
+    const ROLE_VENDOR = 'vendor';
 
     protected $fillable = [
         'name',

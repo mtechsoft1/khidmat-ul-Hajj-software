@@ -26,6 +26,15 @@
         </a>
     </li>
 
+    <li class="nav-item {{ Request::is('admin/vendors*') ? 'active' : '' }}">
+        <a class="nav-link d-flex align-items-center py-3" aria-current="page" href="{{ route('vendors.index') }}">
+            <span class="menu-icon">
+                <i class="fa-solid fas fa-truck pe-3"></i>
+            </span>
+            <span class="aside-menu-title">{{ __('vendors') }}</span>
+        </a>
+    </li>
+
     <li class="nav-item {{ Request::is('admin/categories*') ? 'active' : '' }}">
         <a class="nav-link d-flex align-items-center py-3" aria-current="page" href="{{ route('category.index') }}">
             <span class="menu-icon">

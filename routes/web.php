@@ -18,6 +18,7 @@ use App\Http\Controllers\QuoteController;
 use App\Http\Controllers\SettingController;
 use App\Http\Controllers\TaxController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\VendorController;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
@@ -105,6 +106,11 @@ Route::prefix('admin')->middleware(['auth', 'xss', 'role:admin'])->group(functio
     Route::resource('clients', ClientController::class);
     Route::get('states-list', [ClientController::class, 'getStates'])->name('states-list');
     Route::get('cities-list', [ClientController::class, 'getCities'])->name('cities-list');
+
+    // Vendor route
+    Route::resource('vendors', VendorController::class);
+    Route::get('vendor-states-list', [VendorController::class, 'getStates'])->name('vendor.states-list');
+    Route::get('vendor-cities-list', [VendorController::class, 'getCities'])->name('vendor.cities-list');
 
     //Category Route
     Route::resource('categories', CategoryController::class)->names([
